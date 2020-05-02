@@ -1,0 +1,415 @@
+*{
+    padding: 0px; margin: 0px; box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 40px;
+    background-color: rgba(28, 40, 207, 0.692);
+}
+header li {
+    display: inline-block;
+      margin: 3px 10px;
+      float: left;
+      text-align: none;
+      text-decoration: none;
+}
+.li-left{
+    margin-left: 60px;
+ }
+.li-right{
+    position: absolute;
+    margin-left: 70%;
+    margin-top:4px;
+}
+
+
+
+header a{
+    padding: 5px;
+    margin-left: 5px; 
+    font-size: 1em;
+    color: white;
+    display: inline-block;
+    
+   
+}
+.Navbar{
+    width: 100%;
+    background-color: rgb(253, 252, 252);
+    padding-left:50px;
+    display: inline-block;
+  
+}
+
+.Navbar a{
+   
+    display: inline-block;
+    width: auto;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    position:relative;
+    margin-left: 50px;
+}
+.Navbar a:hover{
+    color: white;
+    background-color: rgba(64, 92, 248, 0.76);
+}
+.active, a:active{
+    color: white;
+    background-color: rgb(119, 119, 250);
+    
+}
+
+.Navbar>img{
+    margin-left: 20px;
+    padding: 5px;
+}
+.photos{
+    width: 100%;
+    height: 500px;
+    background-color: gold;
+}
+.notification-bar{
+    width: 90%;
+    height: 30px;
+    background: rgb(51, 51, 238);
+    margin: 10px 0 10px 5%;
+    animation-direction: reverse;
+
+}
+.introduction{
+    width: 100%;
+    height: 800px;
+    background-color: white;
+    text-align: center;
+
+}
+.introduction>h1{
+    color: blue;
+}
+.introduction>p{
+    padding: 10px;
+    margin: 10px 100px 10px 100px;
+    font-size: 28px;
+    text-align: justify;
+    
+    
+}
+.donations{
+    width: 100%;
+    height: 250px;
+    color: white;
+   text-transform: uppercase;
+   font-size: 1px;
+   background-color: rgb(51, 51, 238);
+}
+.donations img{
+
+    position: relative;
+    margin-top: 20px;
+ border-radius: 10px;
+ width: 50px; height: 60px;
+    
+}
+.light-green{
+    color: lightgreen;
+}
+
+.donations>p{
+    display: inline-block;
+    padding: 12px;
+    text-align: center;
+    margin: 5px;
+    font-size: 22px;
+
+}
+.activities{ 
+    width: 100%;
+    height: 650px;
+    background-color: whitesmoke;
+    padding: 10px;
+    text-align: center;
+    color: rgb(41, 90, 250);
+    text-transform: uppercase;
+    
+}
+.logo{
+    width: 50px; height: 50px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+.activities .logo{
+    width: 50px; height: 50px;
+    margin-top: 5px;
+}
+.activities img{
+    position: relative;
+    margin: 5px;
+ border-radius: 20px;
+ width: 100px; height: 100px;
+
+}
+.green{
+    color: green;
+}
+.activities>h1{ 
+    text-transform: uppercase;
+}
+.activities1{
+    width: 100%;
+    height: 250px;
+    
+    display: inline-block;
+}
+.sadqah{
+    width: 25%;
+    height: 200px;
+    background-color: white;
+    padding: 5px;
+    margin: 50px 20px 20px 150px;
+    float: left;
+}
+.welfare{
+    width: 25%;
+    height: 200px;
+    background-color:white;
+    padding: 5px;
+    margin: 50px 20px 20px 20px;
+    float: left;
+}
+.medical{
+    width: 25%;
+    height: 200px;
+    background-color: white;
+    padding: 5px;
+    margin:  50px 60px 20px 20px;
+    float: left;
+}
+.activities2{
+    width: 100%;
+    height: 250px;
+    display: inline-block;
+    float: left;
+    margin-top: 20px;
+    
+}
+.dastrakhwan{
+    width: 25%;
+    height: 200px;
+    background-color: white;
+    padding: 5px;
+    margin:  20px 20px 20px 150px;
+    float: left;
+}
+.roplant{
+    width: 25%;
+    height: 200px;
+    background-color: white;
+    padding: 5px;
+    margin:  20px 20px 20px 20px;
+    float: left;
+}
+.education{
+    width:25%;
+    height: 200px;
+    background-color: white;
+    padding: 5px;
+    margin:  20px 60px 20px 20px;
+    float: left;
+    
+}
+.mission{
+    width: 60%;
+    height: 250px;
+    margin-left: 10%;
+    background-color: white;
+    float: left;
+    padding: 5px;
+    margin: 10px 5px 10px 150px;
+    text-align: center;
+    clear: both;
+    text-transform: uppercase;
+    font-size: 10px;
+    color: blue;
+}
+
+.mission>h1{
+    font-size: 20px;
+    text-align: left;
+    color: blue;
+    padding: 5px;
+    margin-left: 35px;
+    margin-top: 10px;
+    
+}
+.mission1{
+    margin-left: 30px;
+    text-align: center;
+
+}
+
+.mission1 .hapatitas{ 
+    width: 45%;
+    height: 70px;
+    background-color: whitesmoke;
+    margin: 10px;
+    float: left;
+    display: inline-block;
+}
+.mission1 .housing{ 
+    width: 45%;
+    height: 70px;
+    background-color: whitesmoke;
+    margin: 10px 0 10px 10px;
+    float: left;
+    display: inline-block;
+
+}
+.mission2{
+    margin-left: 30px;
+}
+
+
+.mission2 .it-leteracy{ 
+    width: 45%;
+    height: 70px;
+    background-color: whitesmoke;
+      margin: 10px 10px 10px 10px;
+    float: left;
+    display: inline-block;
+}
+.mission2 .tharparker{ 
+    width: 45%;
+    height: 70px;
+    background-color: whitesmoke;
+    margin: 10px 0 10px 10px;
+    float: left;
+    display: inline-block;
+}
+.events{
+    width: 25%;
+    height: 35  0px;
+    background-color: white;
+    float: left;
+    
+    margin-top: 10px;
+    display: inline-block;
+    
+       
+}
+.events>p{
+    padding: 10px;
+    margin: 10px;
+}
+.gallary{
+    width: 100;
+    height: 400px;
+    background-color: whitesmoke;
+    clear: both;
+    text-align: center;
+    text-transform: uppercase;
+    color: blue;
+
+   
+}
+.gallary-image img{
+    width: 200px;
+    height: 180px;
+
+}
+
+
+
+.notification-bar>p{
+    padding: 5px;
+    color: white;
+    
+}
+.div1{
+
+    width: 200px;
+    height: 180px;
+    background-color: cornflowerblue;
+    float: left;
+    margin: 70px 5px 5px 150px;
+}
+.div2{
+    margin:70px 2px 0px 2px;
+    width: 200px;
+    height: 180px;
+    float: left;
+    background-color: cornflowerblue;
+}
+.div3{
+
+    float: left;
+    width: 200px;
+    margin: 70px 2px 0px 2px;
+    height: 180px;
+    background-color: cornflowerblue;
+}
+.div4{
+    margin: 70px 2px 0px 2px;
+    float: left;
+    width: 200px;
+    height: 180px;
+    background-color: cornflowerblue;
+}
+.div5{ 
+
+    margin: 70px 2px 0px 2px;
+    float: left;
+    width: 200px;
+    height: 180px;
+    background-color: cornflowerblue;
+}
+
+
+
+.gallary>h1{
+    padding: 5px;
+    margin-top: 60px;
+    font-size: 35px;
+}
+
+
+    
+.address{
+    width: auto;
+    height: 250px;
+    background-color: black;
+    color: gray;
+    clear: both;
+    padding-top: 40px;
+}
+.address>p{
+margin-left: 65px;
+margin-top: 20px;
+}
+.address>ul{
+margin-left: 60px;      
+}
+.second-section{
+margin-left: 600px;
+margin-top: -240px;
+
+}
+.third-sections{
+margin-left: 900px;
+margin-top: -220px;
+width: auto;
+}
+
+
+
+
+footer{
+
+    width: 100%;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}
